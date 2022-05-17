@@ -74,7 +74,7 @@ div.topo{
     flex-direction: row;
 }
 .topo-titulo-entrar{    
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -83,7 +83,7 @@ div.topo{
     color: #787878;
 }
 .topo-titulo-cadastrar{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -96,7 +96,7 @@ div.principal{
     margin-top: 49px;
 }
 .principal-titulo-entrar{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -107,7 +107,7 @@ div.principal{
 .principal-descricao{
     margin-left: 20px;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -120,7 +120,7 @@ div.principal{
     margin-top: 15px;
     width: 458px;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -135,7 +135,7 @@ div.principal{
     margin-top: 15px;
     width: 458px;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -162,7 +162,7 @@ div.botao{
     border: none;
     border-radius: 10px;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
