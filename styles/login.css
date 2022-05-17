@@ -1,0 +1,179 @@
+@import url(../styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{    
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    box-sizing: border-box;
+
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    border-color: transparent;
+    /*  código exportado do figma*/
+    background: linear-gradient(198deg, rgba(199, 94, 87, 1) 0%, rgba(180, 82, 76, 0.5299999713897705) 100%);
+}
+
+div.area-total-login{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 1156px;
+    height: 704px;
+    border-radius: 10px;   
+}
+
+div.painel-login-principal{ 
+    box-sizing: border-box; 
+    display: flex;
+    
+    width: 578px;
+    height: 704px;    
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 0px 0px 10px;
+}
+div.painel-login-secundaria-logo{
+    box-sizing: border-box; 
+    width: 578px;
+    height: 704px;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;   
+
+    background: linear-gradient(180deg, #53B2E8 0%, rgba(65, 210, 184, 0.81) 100%);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 10px 10px 0px;
+}
+
+div.painel-login-principal{    
+    display: flex;
+    justify-content: start;  
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-top: 58px;
+    padding-bottom: 162px;
+}
+div.topo{
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.topo-titulo-entrar{    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;   
+    
+    color: #787878;
+}
+.topo-titulo-cadastrar{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #787878;
+
+    margin-left: 41px;
+}
+div.principal{
+    margin-top: 49px;
+}
+.principal-titulo-entrar{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #434242;
+}
+.principal-descricao{
+    margin-left: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #787878;
+}
+.principal-email{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 458px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #787878;
+}
+.principal-password{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 458px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #787878;
+}
+div.botao{
+    display: flex;
+    justify-content: center;   
+    
+}
+.botao-entrar{
+    margin-top: 91px;
+    margin-left: 20px;
+
+    width: 458px;
+    height: 63px;
+
+    background: linear-gradient(268.34deg, rgba(125, 211, 205, 0.35) 1.41%, rgba(65, 210, 184, 0.81) 100%);
+    box-shadow: 0px 4px 30px rgba(207, 158, 158, 0.25);
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+div.total-esquerda{
+    display: flex;
+    justify-content: center;
+    align-self: center;   
+
+}
